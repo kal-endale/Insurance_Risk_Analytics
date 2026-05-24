@@ -13,6 +13,9 @@ data/
 *.csv
 *.xlsx
 *.xls
+# Allow DVC files to be tracked by Git
+!*.dvc
+!data/*.dvc
 
 # ── Jupyter artifacts ───────────────────────────────────────────
 .ipynb_checkpoints/
